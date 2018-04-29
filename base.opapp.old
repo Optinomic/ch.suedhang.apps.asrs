@@ -17,18 +17,18 @@ phone = +41 (0)31 828 14 92
 website = http://suedhang.ch/de/
 
 [template ASRS 6 12]
-__opapp_include(../lib/polymer/index.m4)
+__opapp_include(lib/polymer/index.m4)
 __opapp_include(elements/element-asrs.html)
 __opapp_include(elements/view.html)
 
 [template asrs_scores 4 4]
 <style>
-__opapp_include(../lib/css/set/optinomic_material_bootstrap.m4)
+__opapp_include(lib/css/set/optinomic_material_bootstrap.m4)
 __opapp_include(style.css)
 </style>
 __opapp_include(templates/score.html)
 <script>
-__opapp_include(../lib/js/optinomic/data_module/optinomic_app_api.m4)
+__opapp_include(lib/js/optinomic/data_module/optinomic_app_api.m4)
 __opapp_include(main.js)
 </script>
 
